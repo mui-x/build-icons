@@ -1,2 +1,2 @@
-# build-icons
-Data for Material Design icons
+# reactx-icons
+Cross platform react x react-native icons
