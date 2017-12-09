@@ -15,8 +15,6 @@ rmdir mdi /s /q
 call git submodule add -f --name mdi https://github.com/Templarian/MaterialDesign-SVG mdi
 
 xcopy %root%design\mdi-react-lm\*.* %root%design\mdi-react\*.* /s /y
-md d:\mui-x\build-icons\lib-native\lib
-md d:\mui-x\build-icons\lib-web\lib
 
 npm run build
 

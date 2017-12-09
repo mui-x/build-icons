@@ -25,7 +25,7 @@
     ]
   },
   "exclude": [
-    "lib-web",
+    "lib-native",
     "node_modules",
     "jspm_packages"
   ]

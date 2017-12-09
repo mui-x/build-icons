@@ -77,11 +77,11 @@
     <Content Include="lib-native\package.json" />
     <Content Include="lib-web\package.json" />
     <Content Include="package.json" />
-    <Content Include="refresh.cmd" />
+    <Content Include="%24refresh.cmd" />
     <None Include="packages.config" />
-    <Content Include="publish.cmd" />
+    <Content Include="%24publish.cmd" />
     <Content Include="README.md" />
-    <Content Include="build.cmd" />
+    <Content Include="%24build.cmd" />
     <Content Include="tsconfig.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
