@@ -8,7 +8,7 @@
 
     "baseUrl": ".",
     "paths": {
-      "muix-icons/*": [ "muix-icons-n/*" ]
+      "muix-icons/*": [ "muix-icons/es/*" ]
     },
 
     "allowSyntheticDefaultImports": true,
@@ -25,7 +25,7 @@
     ]
   },
   "exclude": [
-    "lib-native",
+    "deploy/es",
     "node_modules",
     "jspm_packages"
   ]

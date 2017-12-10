@@ -292,5 +292,5 @@ jspm_packages/
 !jspm.config.js
 bundle*.*
 
-lib-web/
-lib-native/
+lib/
+es/

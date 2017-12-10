@@ -1,6 +1,7 @@
 SystemJS.config({
   paths: {
-    "npm:": "jspm_packages/npm/"
+    "npm:": "jspm_packages/npm/",
+    "": ""
   },
   browserConfig: {
     "baseURL": "/"
@@ -28,7 +29,7 @@ SystemJS.config({
     "fs": "npm:jspm-nodelibs-fs@0.2.1",
     "http": "npm:jspm-nodelibs-http@0.2.0",
     "https": "npm:jspm-nodelibs-https@0.2.2",
-    "muix-icons": "npm:muix-icons-w@0.1.22",
+    "muix-icons": "npm:muix-icons@0.1.27",
     "os": "npm:jspm-nodelibs-os@0.2.2",
     "path": "npm:jspm-nodelibs-path@0.2.3",
     "process": "npm:jspm-nodelibs-process@0.2.1",

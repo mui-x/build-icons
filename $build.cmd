@@ -1,9 +1,12 @@
 set root=d:\mui-x\build-icons\
 
 d:
-cd %root%
-rmdir lib-native /s /q
-rmdir lib-web /s /q
+cd %root%deploy\
+rmdir current /s /q
+md current
+rmdir es /s /q
+md es
+md es\current
 
 cd %root%design\
 rmdir mdi-react /s /q

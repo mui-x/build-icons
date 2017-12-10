@@ -68,16 +68,15 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="deploy\es\native\index.js" />
     <Content Include="design\native-package.json" />
     <Content Include="design\web-package.json" />
     <Content Include="design\mdi-react-lm\package.json" />
     <Content Include="index.html" />
     <Content Include="jspm.config.js" />
-    <Content Include="lib-native\index.js" />
-    <Content Include="lib-native\package.json" />
-    <Content Include="lib-web\package.json" />
     <Content Include="package.json" />
     <Content Include="%24refresh.cmd" />
+    <Content Include="deploy\package.json" />
     <None Include="packages.config" />
     <Content Include="%24publish.cmd" />
     <Content Include="README.md" />
@@ -102,9 +101,12 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="deploy\es\native\icons-native.d.ts" />
+    <TypeScriptCompile Include="deploy\es\native\index.d.ts" />
     <TypeScriptCompile Include="index.tsx" />
-    <TypeScriptCompile Include="lib-native\icons-native.d.ts" />
-    <TypeScriptCompile Include="lib-native\index.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="deploy\lib\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
